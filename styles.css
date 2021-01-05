@@ -46,10 +46,6 @@ nav {
   margin-top: -100vh;
 }
 
-.container-info > p {
-  font-size: 20px;
-}
-
 .container-video {
   display: flex;
   justify-content: center;
