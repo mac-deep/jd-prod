@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap");
+
+/* section {
+  margin: 10vh 0;
+} */
+
+#myVideo {
+  position: relative;
+  margin-top: -50px;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  /* background: rgb(26, 26, 26); */
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  height: 10vh;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.container-intro {
+  background-color: rgb(26, 26, 26);
+  height: 100vh;
+  font-size: 3em;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+}
+.container-intro:first {
+  margin-top: -100vh;
+}
+
+.container-info > p {
+  font-size: 20px;
+}
+
+.container-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.container-item {
+  background: white;
+  color: rgb(27, 26, 26);
+  display: flex;
+  height: 100vh;
+  z-index: 0;
+  border-bottom: 2px dashed rgb(26, 26, 26);
+}
+
+.container-item:last-child {
+  border-bottom: none;
+}
+
+.container-info > h1,
+h4 {
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+
+.cast-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  iframe {
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  #myVideo {
+    opacity: 1;
+    margin-top: 10vh;
+    max-width: 100vmax;
+    /* margin-top: 10vh;
+    height: 90vh;
+    width: 100vmax;*/
+    /* transform: scale(5); */
+    /* z-index: -99; */
+  }
+}
