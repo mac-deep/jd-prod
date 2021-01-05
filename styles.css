@@ -30,14 +30,15 @@ nav {
 }
 
 .container-intro {
-  background-color: rgb(26, 26, 26);
+  /* background-color: rgba(26, 26, 26, 0.356); */
+
   height: 100vh;
   font-size: 3em;
   font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
   text-transform: capitalize;
   text-align: center;
 }
@@ -71,7 +72,7 @@ nav {
   display: flex;
   height: 100vh;
   z-index: 0;
-  border-bottom: 2px dashed rgb(26, 26, 26);
+  /* border-bottom: 2px dashed rgb(26, 26, 26); */
 }
 
 .container-item:last-child {
